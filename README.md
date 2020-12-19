@@ -6,3 +6,10 @@
     - O primeiro valor é o maior!
     - O segundo valor é o maior!
     - Não existe valor maior, os dois são iguais!
+    
+3. Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
+    - Se ele ainda vai se alistar no serviço militar.
+    - Se é hora dele se alistar.
+    - Se já passou o tempo de alistamento.
+
+    OBS: Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
