@@ -2,7 +2,7 @@ const avaliacaoDeCredito = require('./ex')
 
     describe('Avaliação de crédito:',()=>{
 
-        describe('Avaliação de crédito:',()=>{
+        describe('Avaliação de crédito(Aprovado):',()=>{
             it('Aprovado!',()=>{
                 const valorDaCasa = 120;
                 const salario = 30;
@@ -12,7 +12,7 @@ const avaliacaoDeCredito = require('./ex')
             })
         })
 
-        describe('Avaliação de crédito:',()=>{
+        describe('Avaliação de crédito(Reprovado):',()=>{
             it('Reprovado!',()=>{
                 const valorDaCasa = 121;
                 const salario = 30;
