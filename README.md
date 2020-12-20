@@ -17,3 +17,13 @@
     - Média abaixo de 5.0: Reprovado
     - Média entre 5.0 e 6.9: Recuperação
     - Média 7.0 ou superior: Aprovado
+    
+5. A CBX(Confederação Brasileira de Xadrez) precida de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
+    - Até 6 anos: Sub 6
+    - Até 8 anos: Sub 8
+    - Até 10 anos: Sub 10
+    - Até 12 anos: Sub 12
+    - Até 14 anos: Sub 14
+    - Até 16 anos: Sub 16
+    - Até 18 anos: Sub 18
+    - Acima de 18 anos: Absoluto

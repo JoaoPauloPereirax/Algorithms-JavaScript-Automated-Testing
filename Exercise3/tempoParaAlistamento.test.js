@@ -1,21 +1,21 @@
-const alistarTempo = require('./alistarTempo')
+const tempoParaAlistamento = require('./tempoParaAlistamento')
 
 describe("Tempo que falta e que passou do alistamento: ",()=>{
   it("Maior de idade: ",()=>{
     const idade = 19
-    const passaramAnos = alistarTempo(idade)
+    const passaramAnos = tempoParaAlistamento(idade)
     expect(passaramAnos).toBe(1)
   })
 
   it("Menor de idade: ",()=>{
     const idade = 17
-    const faltamAnos = alistarTempo(idade)
+    const faltamAnos = tempoParaAlistamento(idade)
     expect(faltamAnos).toBe(1)
   })
 
   it("Valores Inválidos: ",()=>{
     const idade = -1
-    const invalido = alistarTempo(idade)
+    const invalido = tempoParaAlistamento(idade)
     expect(invalido).toBe(-1) 
   })
   

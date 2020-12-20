@@ -1,5 +1,5 @@
 
-function alistarTempo(idade){
+function tempoParaAlistamento(idade){
     if(idade>18){
         return idade-18
     }
@@ -12,4 +12,4 @@ function alistarTempo(idade){
     
 }
 
-module.exports = alistarTempo
+module.exports = tempoParaAlistamento
