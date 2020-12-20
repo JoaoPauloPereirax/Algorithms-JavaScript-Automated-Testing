@@ -13,3 +13,7 @@
     - Se já passou o tempo de alistamento.
 
     OBS: Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+4. Crie um programa que leia duas notas de um aluno e calcule a sua média, mostrando uma mensagem no final, de acordo com a média atingida:
+    - Média abaixo de 5.0: Reprovado
+    - Média entre 5.0 e 6.9: Recuperação
+    - Média 7.0 ou superior: Aprovado
