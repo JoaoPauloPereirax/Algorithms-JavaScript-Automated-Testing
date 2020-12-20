@@ -1,5 +1,5 @@
-const avaliacaoDeCredito = require('./ex')
-
+const avaliacaoDeCredito = require('./avaliacaoDeCredito')
+const {MENSAGEM_DE_APROVACAO,MENSAGEM_DE_REPROVACAO} = require('./mensagens')
     describe('Avaliação de crédito:',()=>{
 
         describe('Avaliação de crédito(Aprovado):',()=>{
@@ -8,7 +8,7 @@ const avaliacaoDeCredito = require('./ex')
                 const salario = 30;
                 const anos = 1;
                 const resultado = avaliacaoDeCredito(valorDaCasa,salario,anos);
-                expect(resultado).toBe('Crédito aprovado!');
+                expect(resultado).toBe(MENSAGEM_DE_APROVACAO);
             })
         })
 
@@ -18,7 +18,7 @@ const avaliacaoDeCredito = require('./ex')
                 const salario = 30;
                 const anos = 1;
                 const resultado = avaliacaoDeCredito(valorDaCasa,salario,anos);
-                expect(resultado).toBe('Crédito não aprovado!');
+                expect(resultado).toBe(MENSAGEM_DE_REPROVACAO);
             })
         })
 

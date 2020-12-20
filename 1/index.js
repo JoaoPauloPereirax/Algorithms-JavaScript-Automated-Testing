@@ -1,8 +1,8 @@
 
-const avaliacaoDeCredito = require('./ex')
+const avaliacaoDeCredito = require('./avaliacaoDeCredito')
 
 const valorDaCasa = 20000
-const salario = 1000
+const salario = 500
 const anos = 5
 
 const final = avaliacaoDeCredito(valorDaCasa,salario,anos)
