@@ -34,3 +34,5 @@
     - Entre 25 e 30: Sobrepeso.
     - Entre 30 e 40: Obesidade.
     - Acima de 40: Obesidade Mórbida.
+
+7. Faça um programa que faça o computador jogar jokempô com você.
