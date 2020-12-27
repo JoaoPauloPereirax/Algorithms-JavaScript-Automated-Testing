@@ -4,11 +4,11 @@ const numeroGeradoPeloComputador = Math.round(Math.random()*(2)+1)
 
 
 //Opções = Pedra, Papel e Tesoura.
-const minhaEscolha = 'Pedra'
+const escolhaUsuario = 'Pedra'
 const escolhaComputador = defindoEscolhaDoComputador(numeroGeradoPeloComputador)
-const jogou = jogando(minhaEscolha,escolhaComputador)
+const jogou = jogando(escolhaUsuario,escolhaComputador)
 
 
-console.log(`Você: ${minhaEscolha}\nComputador: ${escolhaComputador}\nResultado: ${jogou}`)
+console.log(`Você: ${escolhaUsuario}\nComputador: ${escolhaComputador}\nResultado: ${jogou}`)
 
 

@@ -1,17 +1,17 @@
 const {
-  opcao1,
-  opcao2,
-  opcao3,
+  opcaoPedra,
+  opcaoPapel,
+  opcaoTesoura,
   opcaoInvalidaJogando
 } = require('./opcoes')
 
 function defindoEscolhaDoComputador(geradoPeloComputador){
   if(geradoPeloComputador===1){
-    return opcao1
+    return opcaoPedra
   }if(geradoPeloComputador===2){
-    return opcao2
+    return opcaoPapel
   }if(geradoPeloComputador===3){
-    return opcao3
+    return opcaoTesoura
   }else{
     return opcaoInvalidaJogando
   }

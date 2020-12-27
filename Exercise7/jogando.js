@@ -1,6 +1,6 @@
 const {
   computadorVence,
-  euVenco,
+  usuarioVence,
   empate,
   opcaoInvalidaResultados
 } = require('./resultados')
@@ -14,7 +14,7 @@ function jogando(minhaEscolha,escolhaComputador){
     (minhaEscolha == 'Tesoura' && escolhaComputador == 'Papel') ||
     (minhaEscolha == 'Pedra' && escolhaComputador == 'Tesoura')
   ){
-    return euVenco
+    return usuarioVence
   }if(
     (minhaEscolha == 'Papel' && escolhaComputador == 'Tesoura') ||
     (minhaEscolha == 'Tesoura' && escolhaComputador == 'Pedra') ||
