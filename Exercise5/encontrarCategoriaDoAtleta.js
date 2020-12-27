@@ -16,9 +16,8 @@ const encontrarCategoriaDoAtleta = (idadeDoAtleta)=>{
     return 'Sub 16'
   }if(idadeDoAtleta<=18){
     return 'Sub 18'
-  }if(idadeDoAtleta>18){
-    return 'Absoluto'
-  }
+  }else return 'Absoluto'
+  
 }
 
 module.exports = encontrarCategoriaDoAtleta
