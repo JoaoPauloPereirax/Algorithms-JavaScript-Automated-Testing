@@ -4,6 +4,8 @@
 
 ![Jest](./assets/images/jest-readme-headline.png)
 
+
+
 1. Escreva um programa para aprovar um empréstimo bancário para a compra de uma casa. o programa vai perguntar o **valor da casa,** o **salário** do comprador e em **quantos anos** ele vai pagar. Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
 2. Escreva em um programa que leia dois números inteiros e compare-os, mostrando na tela uma mensagem:
@@ -46,7 +48,7 @@
 
 Primeiramente devemos clonar o repositório:
 
-$ git clone
+$ git clone git@github.com:JoaoPauloPereirax/Algorithms-JavaScript-Automated-Testing.git
 
 Instalando as dependências (Dentro da pasta):
 
@@ -55,3 +57,7 @@ $ npm install
 Rodando os testes:
 
 $ npm test
+
+Caso queira rodar o código direto no terminal usa-se:
+
+$ node nomeDoApp.js

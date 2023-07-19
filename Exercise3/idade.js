@@ -1,6 +1,6 @@
 function idade(anoDeNascimento){
     const data = new Date();
-    const anoAtual = data.getUTCFullYear();
+    const anoAtual = data.getFullYear();
     
     if(anoDeNascimento>=0 && anoDeNascimento <= anoAtual){
         const idadeAtual = anoAtual-anoDeNascimento
