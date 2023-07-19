@@ -61,3 +61,5 @@ $ npm test
 Caso queira rodar o código direto no terminal usa-se:
 
 $ node nomeDoApp.js
+
+Obs: Você deve ter o [NODE](https://nodejs.org/pt-br) instalado.
