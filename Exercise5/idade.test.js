@@ -2,16 +2,13 @@ const idade = require('./idade')
 
 
 
-describe('Idade atual: ',()=>{
+describe('Verificação de idade: ',()=>{
     it('Maior de idade: ',()=>{
-        const anoDeNascimento = 1996
-        const idadeAtual = idade(anoDeNascimento)
-        expect(idadeAtual).toBe(24)
-    })
-    it('Menor de idade: ',()=>{
-        const anoDeNascimento = 2010
-        const idadeAtual = idade(anoDeNascimento)
-        expect(idadeAtual).toBe(10)
+        const dataAtual = new Date();
+        const anoAtual = dataAtual.getFullYear();
+        const anoDeNascimento = anoAtual-15;// 15 anos
+        const idadeAtual = idade(anoDeNascimento);
+        expect(idadeAtual).toBe(15)
     })
 
     it("Idade Inválida: ",()=>{
