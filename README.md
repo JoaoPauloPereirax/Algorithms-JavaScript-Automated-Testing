@@ -1,4 +1,8 @@
-# Testes em algoritmos - JavaScript
+<div align='center' >
+        <h1>ESTUDO DE TESTES AUTOMATIZADOS - JEST<h1>
+</div>
+
+![Jest](./assets/images/jest-readme-headline.png)
 
 1. Escreva um programa para aprovar um empréstimo bancário para a compra de uma casa. o programa vai perguntar o **valor da casa,** o **salário** do comprador e em **quantos anos** ele vai pagar. Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
@@ -36,3 +40,18 @@
     - Acima de 40: Obesidade Mórbida.
 
 7. Faça um programa que faça o computador jogar jokempô com você.
+
+
+## COMO USAR
+
+Primeiramente devemos clonar o repositório:
+
+$ git clone
+
+Instalando as dependências (Dentro da pasta):
+
+$ npm install
+
+Rodando os testes:
+
+$ npm test
