@@ -43,23 +43,43 @@
 
 7. Faça um programa que faça o computador jogar jokempô com você.
 
+## CONFIGURAÇÕES
+### package.json
+Podemos usar: 
+```json
+"scripts": {
+    "test": "jest --verbose --coverage"
+  }
+```
+
+Onde **--verbose** e **--coverage** mostram mais funções durante o teste.
 
 ## 🛠️ COMO USAR
 
-Primeiramente devemos clonar o repositório:
+Primeiramente devemos clonar o repositório ([GIT](https://git-scm.com/)):
 
-$ git clone git@github.com:JoaoPauloPereirax/Algorithms-JavaScript-Automated-Testing.git
+
+```bash 
+git clone git@github.com:JoaoPauloPereirax/Algorithms-JavaScript-Automated-Testing.git
+```
 
 Instalando as dependências (Dentro da pasta):
 
-$ npm install
+```bash 
+npm install
+```
 
 Rodando os testes:
 
-$ npm test
+```bash 
+npm test
+```
 
 Caso queira rodar o código direto no terminal usa-se:
 
-$ node nomeDoApp.js
+```bash 
+node nomeDoApp.js
+```
 
 Obs: Você deve ter o [NODE](https://nodejs.org/pt-br) instalado.
+
