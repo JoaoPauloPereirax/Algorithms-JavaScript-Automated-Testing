@@ -52,7 +52,7 @@
 
 7. Faça um programa que faça o computador jogar jokempô com você.
 
-## CONFIGURAÇÕES
+## ⚙️ CONFIGURAÇÕES
 ### package.json
 Podemos usar: 
 ```json
