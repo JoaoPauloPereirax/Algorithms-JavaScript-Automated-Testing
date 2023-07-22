@@ -52,6 +52,9 @@
 
 7. Faça um programa que faça o computador jogar jokempô com você.
 
+8.Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+na tela a sua média na disciplina.
+
 ## ⚙️ CONFIGURAÇÕES
 
 ### package.json
